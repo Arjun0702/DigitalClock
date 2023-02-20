@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Design</title>
+        <link rel="Stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="design">
+            <div class="clock-outer">
+                <div class ="clock-inner">
+                            <div class="dmy">
+                                <h4>DATE</h4>
+                                <h4>MONTH</h4>
+                                <h4>YEAR</h4>
+                            </div>
+                            <div class="dmy-num">
+                                <span  id="day">00</span>
+                                <span  id="month">00</span>
+                                <span  id="year">0000</span>
+                            </div>
+                            <div class="dmy">
+                                <h4>HOUR</h4>
+                                <h4>MINUTE</h4>
+                                <h4>SECOND</h4>
+                        </div>
+                        <div class="dmy-num">
+                            <h4 id="hr">00</h4><span>:</span>
+                            <h4 id="min">00</h4><span>:</span>
+                            <h4 id="sec">00</h4> 
+                        </div> 
+                        <p class="day-row">
+                            <label><input class="day" name="day" type= "radio">SUN</label>
+                            <label><input class="day" name="day" type= "radio">MON</label>
+                            <label><input class="day" name="day" type= "radio">TUE</label>
+                            <label><input class="day" name="day" type= "radio">WED</label>
+                            <label><input class="day" name="day" type= "radio">THU</label>
+                            <label><input class="day" name="day" type= "radio">FRI</label>
+                            <label><input class="day" name="day" type= "radio">SAT</label>
+                        </p>
+                        <div class="bottom">
+                            <p class ="temp"> TEMP <span class="value"> 29</span>'c</p>
+					    </div>
+                            <div class="meridian">
+                                <label><input class="mer" name="meridian" type= "radio">AM</label>
+                                <label><input class="mer" name="meridian" type= "radio">PM</label>         
+                            </div>
+						</div>
+                </div>
+            </div>
+       </section>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
